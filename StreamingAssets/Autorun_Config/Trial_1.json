@@ -1,0 +1,124 @@
+{
+    "OutputTimesPerSecond": 100,
+    "IgnoreUserInputDelay": 0.5,
+    "TimingVerification": false,
+    "CHARACTER DATA": "CHARACTER DATA----------*********-------------------CHARACTER DATA",
+    "CharacterData": {
+        "Height": 2,
+        "MovementSpeed": 15.0,
+        "RotationSpeed": 75.0,
+        "DistancePickup": 2,
+        "GoalRotationSpeed": 0
+    },
+  "BlockOrder": [1],
+  "Blocks": [
+    {
+      "Block 1": "Основной блок",
+      "TrialOrder": [1, 2, 3],
+      "DisplayText": "Следите за положением",
+      "ShowTrialTotal": true
+    }
+  ],
+  "Trials": [
+  {
+    "Trial 1": "Rules screen",
+    "Scene": 2,
+    "Rotate": 0,
+    "StartPosition": [0, 0],
+    "StartFacing": 0,
+    "TrialTime": 20,
+    "TrialEndKey": "Space",
+    "ActiveGoals": [],
+    "Quota": 0
+  },
+  {
+    "Trial 2": "Maze test",
+    "Scene": 3,
+    "Rotate": 0,
+    "StartPosition": [0, 0],
+    "StartFacing": 0,
+    "TrialTime": 300,
+    "TrialEndKey": "Escape",
+    "ActiveGoals": [1,2,3,4,5,6,7],
+    "Quota": 7
+  },
+  {
+    "Trial 3": "Questionnaire",
+    "Scene": 4,
+    "Rotate": 0,
+    "StartPosition": [0, 0],
+    "StartFacing": 0,
+    "TrialTime": 0,
+    "TrialEndKey": "Escape",
+    "ActiveGoals": [],
+    "Quota": 0
+  }
+	],
+"Goals": [
+  {
+    "Goal 1": "Star",
+    "Type": "3D",
+    "Object": "Star",
+    "Sound": "coin",
+    "Position": [48.11361, 295.9497],
+    "Rotation": [0,0,0],
+    "Scale": [0.8667579,0.8667579,0.8667579]
+  },
+  {
+    "Goal 2": "Trophy",
+    "Type": "3D",
+    "Object": "Trophy",
+    "Sound": "coin",
+    "Position": [-245.1721, 263.0029],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  },  
+  {
+    "Goal 3": "Magnet",
+    "Type": "3D",
+    "Object": "Magnet",
+    "Sound": "coin",
+    "Position": [-28.05609, 421.1328],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  },  
+  {
+    "Goal 4": "Lock",
+    "Type": "3D",
+    "Object": "Lock",
+    "Sound": "coin",
+    "Position": [122.3078, 164.8102],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  },  
+  {
+    "Goal 5": "Clock",
+    "Type": "3D",
+    "Object": "Clock",
+    "Sound": "coin",
+    "Position": [-2.786457, 7.539467],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  },  
+  {
+    "Goal 6": "Battery",
+    "Type": "3D",
+    "Object": "Battery",
+    "Sound": "coin",
+    "Position": [-231.3282, -2.601707],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  },   
+  {
+    "Goal 7": "Basket",
+    "Type": "3D",
+    "Object": "Basket",
+    "Sound": "coin",
+    "Position": [-116.3585, 226.37],
+    "Rotation": [0,0,0],
+    "Scale": [1,1,1]
+  }
+	],
+  "Landmarks": [],
+  "Enclosures": []
+}
